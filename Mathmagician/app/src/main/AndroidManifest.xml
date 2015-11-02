@@ -28,6 +28,10 @@
             android:name=".TimeAttack"
             android:label="@string/title_activity_time_attack" >
         </activity>
+        <activity
+            android:name=".FirstGrade"
+            android:label="@string/title_activity_first_grade" >
+        </activity>
     </application>
 
 </manifest>

@@ -6,42 +6,6 @@
     <string name="title_activity_main_menu">MainMenu</string>
     <string name="title_activity_grades">Grades</string>
     <string name="title_activity_time_attack">TimeAttack</string>
-    <string-array  name="Fortune_Array">
-
-        <item>Help! I am trapped in a fortune cookie factory!</item>
-
-        <item>Be on the lookout for coming events; they cast their shadow beforehand.</item>
-
-        <item>It is now and in this world that we must live.</item>
-
-        <item>You will be called in to fulfill a position of high honor and responsibility.</item>
-
-        <item>Joys are often shadows cast by sorrows.</item>
-
-        <item>Accept your past without regrets. Handle your present with confidence. Face your future without fear.</item>
-
-        <item>The only certainty is that nothing is certain.</item>
-
-        <item>I think you ate your fortune while you were eating your cookie.</item>
-
-        <item>Cookie says, "You carck me up!"</item>
-
-        <item>I am a fortune, you just broke my little house. Where will I live now?</item>
-
-        <item>The race is not always to the swift but to those that keep running.</item>
-
-        <item>Today is the tomorrow that you worried so much about yesterday.</item>
-
-        <item>Rest is a good thing, but boredom is its brother.</item>
-
-        <item>Before you wonder "Am I doing things right?", ask "Am I doing the right things?"</item>
-
-        <item>Great fortune is in your future.</item>
-
-        <item>A life without love is a bird without wings.</item>
-
-        <item>A thrilling adventure awaits you. Will you be ready for it?</item>
-
-    </string-array>
-
+    <string name="title_activity_first_game">FirstGame</string>
+    <string name="title_activity_first_grade">FirstGrade</string>
 </resources>

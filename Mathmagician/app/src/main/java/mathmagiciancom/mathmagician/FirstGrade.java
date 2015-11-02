@@ -1,24 +1,17 @@
 package mathmagiciancom.mathmagician;
 
-import android.content.Context;
 import android.content.Intent;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TimeAttack extends AppCompatActivity implements View.OnClickListener{
+public class FirstGrade extends AppCompatActivity implements View.OnClickListener {
 Button btnHome;
-    SensorManager mSensorManager;
-    Sensor mSensor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_time_attack);
+        setContentView(R.layout.activity_first_grade);
         btnHome=(Button)findViewById(R.id.btnHome);
         btnHome.setOnClickListener(this);
     }
