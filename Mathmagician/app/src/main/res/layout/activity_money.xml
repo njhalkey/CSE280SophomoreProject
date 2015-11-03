@@ -1,0 +1,401 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="mathmagiciancom.mathmagician.Money"
+    android:id="@+id/lblExplnation">
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneDollar1"
+        android:src="@drawable/one"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="400dp" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneDollar2"
+        android:src="@drawable/one"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="400dp" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneDollar3"
+        android:src="@drawable/one"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_marginTop="400dp" />
+
+    <ImageButton
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneDollar4"
+        android:src="@drawable/one"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentStart="false"
+        android:layout_marginTop="400dp" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/one"
+        android:layout_marginLeft="1050dp"
+        android:layout_marginStart="788dp"
+        android:layout_alignParentBottom="false"
+        android:id="@+id/btnEndOneDollar1"
+        android:visibility="invisible"
+        android:layout_marginTop="400dp" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/one"
+        android:id="@+id/btnEndOneDollar2"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="990dp"
+        android:layout_marginTop="400dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/one"
+        android:id="@+id/btnEndOneDollar3"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="950dp"
+        android:layout_marginTop="400dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/one"
+        android:id="@+id/btnEndOneDollar4"
+        android:layout_marginLeft="900dp"
+        android:layout_marginTop="400dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneCent1"
+        android:src="@drawable/penny"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneCent2"
+        android:src="@drawable/penny"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnOneCent1"
+        android:layout_alignStart="@+id/btnOneCent1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneCent3"
+        android:src="@drawable/penny"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnOneCent1"
+        android:layout_alignStart="@+id/btnOneCent1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnOneCent4"
+        android:src="@drawable/penny"
+        android:layout_alignTop="@+id/btnOneCent1"
+        android:layout_alignLeft="@+id/btnOneCent1"
+        android:layout_alignStart="@+id/btnOneCent1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndOneCent1"
+        android:src="@drawable/penny"
+        android:layout_alignTop="@+id/btnOneCent1"
+        android:layout_alignRight="@+id/btnEndOneDollar1"
+        android:layout_alignEnd="@+id/btnEndOneDollar1"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndOneCent2"
+        android:src="@drawable/penny"
+        android:layout_alignTop="@+id/btnEndOneCent1"
+        android:layout_toRightOf="@+id/btnEndOneDollar4"
+        android:layout_toEndOf="@+id/btnEndOneDollar4"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndOneCent3"
+        android:src="@drawable/penny"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentEnd="false"
+        android:layout_marginLeft="1120dp"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndOneCent4"
+        android:src="@drawable/penny"
+        android:layout_alignTop="@+id/btnEndOneCent1"
+        android:layout_toLeftOf="@+id/btnEndOneCent1"
+        android:layout_toStartOf="@+id/btnEndOneCent1"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnNickel1"
+        android:src="@drawable/nickel"
+        android:layout_below="@+id/btnOneCent1"
+        android:layout_alignLeft="@+id/btnOneCent1"
+        android:layout_alignStart="@+id/btnOneCent1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndNickel1"
+        android:src="@drawable/nickel"
+        android:layout_alignBottom="@+id/btnNickel1"
+        android:layout_alignRight="@+id/btnEndOneCent1"
+        android:layout_alignEnd="@+id/btnEndOneCent1"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnDime1"
+        android:src="@drawable/dime"
+        android:layout_below="@+id/btnNickel1"
+        android:layout_alignLeft="@+id/btnNickel1"
+        android:layout_alignStart="@+id/btnNickel1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnDime2"
+        android:src="@drawable/dime"
+        android:layout_alignTop="@+id/btnDime1"
+        android:layout_alignLeft="@+id/btnDime1"
+        android:layout_alignStart="@+id/btnDime1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnQuarter1"
+        android:src="@drawable/quarter"
+        android:layout_below="@+id/btnDime1"
+        android:layout_alignLeft="@+id/btnOneDollar1"
+        android:layout_alignStart="@+id/btnOneDollar1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndDime1"
+        android:src="@drawable/dime"
+        android:layout_above="@+id/btnQuarter1"
+        android:layout_alignRight="@+id/btnEndNickel1"
+        android:layout_alignEnd="@+id/btnEndNickel1"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndDime2"
+        android:src="@drawable/dime"
+        android:layout_alignTop="@+id/btnEndDime1"
+        android:layout_alignRight="@+id/btnEndOneCent2"
+        android:layout_alignEnd="@+id/btnEndOneCent2"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndQuarter1"
+        android:src="@drawable/quarter"
+        android:layout_alignBottom="@+id/btnQuarter1"
+        android:layout_alignRight="@+id/btnEndOneDollar1"
+        android:layout_alignEnd="@+id/btnEndOneDollar1"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndQuarter2"
+        android:src="@drawable/quarter"
+        android:layout_below="@+id/btnEndDime1"
+        android:layout_alignRight="@+id/btnEndOneDollar2"
+        android:layout_alignEnd="@+id/btnEndOneDollar2"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndQuarter3"
+        android:src="@drawable/quarter"
+        android:layout_below="@+id/btnEndDime1"
+        android:layout_alignRight="@+id/btnEndOneDollar3"
+        android:layout_alignEnd="@+id/btnEndOneDollar3"
+        android:visibility="invisible" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="148dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnFiveDollar"
+        android:src="@drawable/five"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="550dp" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
+        android:layout_height="148dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnEndFiveDollar"
+        android:src="@drawable/five"
+        android:visibility="invisible"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="1050dp" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnQuarter2"
+        android:src="@drawable/quarter"
+        android:layout_below="@+id/btnDime1"
+        android:layout_alignLeft="@+id/btnOneDollar1"
+        android:layout_alignStart="@+id/btnOneDollar1" />
+
+    <ImageButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/btnQuarter3"
+        android:src="@drawable/quarter"
+        android:layout_below="@+id/btnDime1"
+        android:layout_alignLeft="@+id/btnOneDollar1"
+        android:layout_alignStart="@+id/btnOneDollar1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nice work! You answered 0   out of 10 corectly"
+        android:id="@+id/txtQuestionsCorrect"
+        android:visibility="invisible"
+        android:layout_below="@+id/btnEndOneCent4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Click the Currency from the left side of the screen to make it appear on the right."
+        android:id="@+id/txtDirections"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please select 0.00 from the left. press $ when you&apos;re done."
+        android:id="@+id/txtQuestion"
+        android:layout_below="@+id/txtDirections"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFinish"
+        android:background="@drawable/dollarsign"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.Widget.AppCompat.Button.Borderless" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/btnHome"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible" />
+
+</RelativeLayout>
